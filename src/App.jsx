@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Narvar from './components/narvar'
-import Home from './pages/Home'
-import NotFound from './pages/notFound'
-import Personajes from './pages/Personajes'
-import Episode from './pages/episode'
-import Search from './components/search'
+import Narvar from './components/narvar.jsx'
+import Home from './pages/home.jsx'
+import NotFound from './pages/notFound.jsx'
+import Personajes from './pages/personajes.jsx'
+import Episode from './pages/episode.jsx'
+import Search from './components/search.jsx'
 
 
 function App() {
